@@ -1,80 +1,58 @@
-.add-theme {
-  background-color: #50c878;
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 551px;
-  height: 355px;
-  top: 175px;
-  left: 110px;
-  flex-direction: column;
-}
-
-
-.titulo{
-font-family: Magra, sans-serif;
-font-style: bold;
-font-weight: 600;
-font-size: 64px;
-display: flex;
-align-items: center;
-justify-content: center;
-
-}
-
-.num{
-font-family: Magra, sans-serif;
-font-weight: 600;
-font-size: 36px;
-margin-top: 11px;
-}
-
-.soma1, .subtracao1, .multiplicacao1, .divisao1{
+.title-form {
   font-family: Magra, sans-serif;
   font-style: bold;
-  font-weight: 600;
-  font-size: 36px;
-  margin-bottom: 0;
-  margin-top: 22px;
-
-
-}
-
-.calculator1 {
-  flex-direction: column;
+  font-size: 64px;
   display: flex;
-  margin: 10px;
-}
-.calculator10 {
-  flex-direction: column;
-  display: flex;
-}
-.addglobal {
-  flex-direction: row;
-  display: flex;
-}
-input {
-  padding: 0;
-  margin: 0;
-  width: 204px;
-  height: 67px;
-  margin: 5px;
-  font-family: "Magra", sans-serif;
+  justify-content: center;
 }
 
-.ade{
-  align-content: center;
-  justify-items: center;
-
-}
-.adesub {
+.add-sub {
   display: grid;
   grid-auto-flow: column;
   gap: 83px;
   align-items: center;
   justify-items: center;
 }
-.adesub2 {
+
+.main-theme {
+  background-color: #50c878;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  width: 551px;
+  height: 355px;
+  flex-direction: column;
+}
+
+.global-title {
+  font-family: Magra, sans-serif;
+  font-style: bold;
+  font-size: 36px;
+  margin-bottom: 0;
+  margin-top: 22px;
+}
+
+.class-title {
+  display: flex;
+}
+
+.num {
+  font-family: Magra, sans-serif;
+  font-size: 36px;
+  margin-top: 11px;
+}
+
+.calculator {
+  flex-direction: column;
+  display: flex;
+  margin: 10px;
+}
+.calculator-imput {
+  flex-direction: column;
+  display: flex;
+}
+
+.mult-division {
   display: grid;
   grid-auto-flow: column;
   gap: 83px;
@@ -82,24 +60,14 @@ input {
   justify-items: center;
   margin-top: 37px;
 }
-#n1 {
-  font-weight: 600px;
-  size: 36px;
-  line-height: 43.74px;
-  margin-top: 16px;
-}
-#n2 {
-  font-weight: 600px;
-  size: 36px;
-  line-height: 43.74px;
-}
-#result {
-  font-weight: 600px;
-  size: 36px;
-  line-height: 43.74px;
-}
-input{
-  font-family: Magra, sans-serif;
+
+input {
+  padding: 0;
+  margin: 0;
+  width: 204px;
+  height: 67px;
+  margin: 5px;
+  font-family: "Magra", sans-serif;
   font-size: 36px;
   text-align: center;
 }

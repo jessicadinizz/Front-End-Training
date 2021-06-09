@@ -3,8 +3,8 @@ function somar() {
     let sumtn2 = document.getElementById("sum-number2");
     let sum1 = Number(sumtn1.value);
     let sum2 = Number(sumtn2.value);
-    let s = sum1 + sum2;
-    document.getElementById("sumResult").value = s;
+    let sum = sum1 + sum2;
+    document.getElementById("sumResult").value = sum;
     
 }
 

@@ -1,0 +1,63 @@
+.App-header {
+  background: #a50010;
+  height: 128px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-footer {
+  height: 68px;
+  background: #a50010;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+.header-title {
+  color: white;
+  font-size: 36px;
+  font-family: "Magra", sans-serif;
+}
+.footer-title {
+  color: white;
+  font-size: 24px;
+  font-family: "Magra", sans-serif;
+}
+.card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background: #a50010;
+  top: 510px;
+  left: 510px;
+  width: 468px;
+  height: 88px;
+  font-size: 36px;
+  font-family: "Magra", sans-serif;
+  color: white;
+  cursor: pointer;
+}
+.card-image {
+  width: 84px;
+  height: 81px;
+}
+.card-info {
+  width: 468px;
+  height: 207px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #a50010;
+  margin: 0;
+  position: relative;
+  top: 127px;
+  left: 510px;
+}
+.card-title {
+  font-family: "Magra", sans-serif;
+  color: white;
+}

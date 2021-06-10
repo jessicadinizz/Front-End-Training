@@ -1,12 +1,79 @@
+.wrapper-app{
+  width: 100%;
+  min-height: 100vh;
+}
+
+.head-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
 .App-header {
   background: #a50010;
-  height: 128px;
   display: flex;
+  padding: 5px;
   align-items: center;
   justify-content: center;
 }
+
+.header-title {
+  color: white;
+  font-size: 36px;
+  font-family: "Magra", sans-serif;
+}
+
+.wrapper-card{
+  width: 100%;
+  min-height: 75vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.wrap-info{
+  background: #a50010;
+  width: 468px;
+  height: 207px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-title {
+  font-family: "Magra", sans-serif;
+  color: white;
+  font-size: 24px;
+}
+.card-image {
+  width: 84px;
+  height: 81px;
+}
+
+.card-button{
+  width: 468px;
+  height: 88px;
+  background: #A50010;
+  font-family: "Magra", sans-serif;
+  color: white;
+  font-size: 44px;
+  border: none;
+  cursor: pointer;
+  margin-top: 30px;
+}
+
+.footer-title {
+  color: white;
+  font-size: 24px;
+  font-family: "Magra", sans-serif;
+}
+
 .App-footer {
-  height: 68px;
+  padding: 2px 0 2px 0;
   background: #a50010;
   display: flex;
   align-items: center;
@@ -14,50 +81,4 @@
   position: absolute;
   width: 100%;
   bottom: 0;
-}
-.header-title {
-  color: white;
-  font-size: 36px;
-  font-family: "Magra", sans-serif;
-}
-.footer-title {
-  color: white;
-  font-size: 24px;
-  font-family: "Magra", sans-serif;
-}
-.card-button {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  background: #a50010;
-  top: 510px;
-  left: 510px;
-  width: 468px;
-  height: 88px;
-  font-size: 36px;
-  font-family: "Magra", sans-serif;
-  color: white;
-  cursor: pointer;
-}
-.card-image {
-  width: 84px;
-  height: 81px;
-}
-.card-info {
-  width: 468px;
-  height: 207px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  background: #a50010;
-  margin: 0;
-  position: relative;
-  top: 127px;
-  left: 510px;
-}
-.card-title {
-  font-family: "Magra", sans-serif;
-  color: white;
 }

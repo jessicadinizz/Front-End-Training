@@ -6,19 +6,20 @@ import Showhidden from "./components/Showhidden";
 function App() {
   return (
     <div className="wrapper-app">
+
       <style>
         @import
         url('https://fonts.googleapis.com/css2?family=Magra&display=swap');
       </style>
-      <header className="wrapper-header">
+
+
         <Head />
-      </header>
 
-      <Showhidden />
+        <Showhidden />
 
-      <footer className="wrapper-footer">
         <Foot />
-      </footer>
+
+
     </div>
   );
 }

@@ -1,0 +1,48 @@
+.wapper-list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 50px;
+}
+
+.title-list {
+  font-family: "Magra", sans-serif;
+  font-size: 36px;
+}
+
+.input-list {
+  width: 1150px;
+  height: 86px;
+  background: #ffffff;
+  border: 1px solid #c6c6c6;
+  box-sizing: border-box;
+  border-radius: 4px;
+  font-family: "Magra", sans-serif;
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+.button-list {
+  width: 207px;
+  height: 86px;
+  background: #00ced1;
+  border: none;
+  border-radius: 5px;
+  font-family: "Magra", sans-serif;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.form-list {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Magra", sans-serif;
+}
+
+.items-list {
+  display: flex;
+  flex-direction: column;
+  font-family: "Magra", sans-serif;
+  font-size: 24px;
+  padding: 0;
+}

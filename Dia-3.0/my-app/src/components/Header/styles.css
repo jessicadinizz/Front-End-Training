@@ -1,0 +1,14 @@
+.header-head{
+  background: #A50010;
+  padding: 5px 0 5px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.header-title{
+  color: #fff;
+  font-family: 'Magra', sans-serif;
+  font-size: 36px;
+}

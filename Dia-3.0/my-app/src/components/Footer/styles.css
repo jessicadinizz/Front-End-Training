@@ -1,0 +1,15 @@
+.wrap-foot{
+  background: #A50010;
+  padding: 2px 0 2px 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.foot-copyright{
+  font-family: 'Magra', sans-serif;
+  font-size: 24px;
+  color: #FFF;
+}

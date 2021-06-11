@@ -1,0 +1,17 @@
+.items-list {
+  background: #00ced1;
+  width: 237px;
+  height: 244px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.list-contents {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+}

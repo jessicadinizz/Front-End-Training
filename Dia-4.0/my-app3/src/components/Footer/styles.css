@@ -1,0 +1,11 @@
+.App-footer {
+  padding: 2px 0 2px 0;
+  background: #00ced1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-title {
+  font-size: 24px;
+  font-family: "Magra", sans-serif;
+}

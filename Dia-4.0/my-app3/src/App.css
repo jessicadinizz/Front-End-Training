@@ -1,0 +1,25 @@
+.App-header {
+  background: #00ced1;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.App-footer {
+  padding: 2px 0 2px 0;
+  background: #00ced1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+}
+.header-title {
+  font-size: 36px;
+  font-family: "Magra", sans-serif;
+}
+.footer-title {
+  font-size: 24px;
+  font-family: "Magra", sans-serif;
+}
+@import url("https://fonts.googleapis.com/css2?family=Magra&display=swap");

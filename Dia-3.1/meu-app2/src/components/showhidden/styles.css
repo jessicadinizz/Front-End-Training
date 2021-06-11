@@ -1,0 +1,43 @@
+
+.wrapper-card{
+    width: 100%;
+    min-height: 75vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+  
+  }
+  
+  .wrap-info{
+    background: #a50010;
+    width: 468px;
+    height: 207px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .card-title {
+    font-family: "Magra", sans-serif;
+    color: white;
+    font-size: 24px;
+  }
+  .card-image {
+    width: 84px;
+    height: 81px;
+  }
+  
+  .card-button{
+    width: 468px;
+    height: 88px;
+    background: #A50010;
+    font-family: "Magra", sans-serif;
+    color: white;
+    font-size: 44px;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+  }
+  

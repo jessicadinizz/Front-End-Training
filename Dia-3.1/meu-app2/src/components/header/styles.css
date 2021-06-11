@@ -1,0 +1,22 @@
+
+.head-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
+  .App-header {
+    background: #a50010;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .header-title {
+    color: white;
+    font-size: 36px;
+    font-family: "Magra", sans-serif;
+  }
+  

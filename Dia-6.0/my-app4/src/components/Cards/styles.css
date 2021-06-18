@@ -1,3 +1,44 @@
+.wapper-list {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.title-and-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.input-list {
+  width: 1232px;
+  height: 70px;
+  padding: 0;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  border-color: rgba(198, 198, 198, 1);
+  font-family: 'Magra', sans-serif;
+  color: #c6c6c6;
+  font-size: 24px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-list {
+  width: 1232px;
+  height: 70px;
+  padding: 0;
+  background: #00ced1;
+  border: none;
+  font-family: 'Magra', sans-serif;
+  color: #ffffff;
+  font-size: 36px;
+}
+
 .items-list {
   background: #00ced1;
   width: 237px;
@@ -7,6 +48,7 @@
   align-items: center;
   flex-direction: column;
 }
+
 .list-contents {
   display: flex;
   flex-direction: row;

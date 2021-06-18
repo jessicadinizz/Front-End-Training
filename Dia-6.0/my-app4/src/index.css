@@ -11,4 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-@import url("https://fonts.googleapis.com/css2?family=Magra&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Magra:wght@700&display=swap');
+.wapper-app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}

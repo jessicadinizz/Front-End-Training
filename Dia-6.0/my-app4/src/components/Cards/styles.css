@@ -37,6 +37,7 @@
   font-family: 'Magra', sans-serif;
   color: #ffffff;
   font-size: 36px;
+  cursor: pointer;
 }
 
 .items-list {
@@ -57,3 +58,40 @@
   justify-content: center;
   padding: 0;
 }
+
+.first-item, .second-item {
+  font-family: 'Magra', sans-serif;
+  color: #ffffff;
+  font-size: 36px;
+}
+
+.p-name-item {
+  margin-top: 0;
+}
+
+.p-item {
+  margin: 0;
+  text-align: center;
+  color: black;
+}
+
+.erase-list {
+  width: 32px;
+  height: 43px;
+  background: #00ced1;
+  cursor: pointer;
+}
+
+.erase-button-list {
+  width: 32px;
+  height: 43px;
+  background: #00ced1;
+  border: none;
+  outline: 0;
+}
+
+.img-form {
+  margin-left: 160px;
+  margin-top: 14px;
+}
+
